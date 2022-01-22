@@ -10,16 +10,14 @@
 <body>
     
     <header>
-        <h1 class="logo">Header logo</h1>
-        <ul class="nav">
-            <li>header link onen</li>
-            <li>header link two</li>
-            <li>header link three</li>
-        </ul>
-    </header>
-
-    <main>
-        
+        <div class="hed">
+            <h1 class="logo">Header logo</h1>
+            <ul class="nav">
+                <li><a href="#">header link one</a></li>
+                <li><a href="#">header link two</a></li>
+                <li><a href="#">header link three</a></li>
+            </ul>
+        </div>
         <div class="top">
             <div class="container-top">
                 <h1>This website is awesome</h1>
@@ -30,9 +28,11 @@
             </div>
             <img src="./img/Slika.jpeg" alt="Slika">
         </div>
+    </header>
 
+    <main>
         <div class="mid">
-            <h2>Some random information</h2>
+            <h2>Some random information.</h2>
             <div class="cards">
                 <div class="card">
                     <div class="cube"></div>
@@ -57,17 +57,19 @@
         </div>
 
         <div class="mid2">
-            <p>This is an inspiring quote, or a testimonial from a
+            <div class="mid2-content">
+                <p>This is an inspiring quote, or a testimonial from a
                 customer. Maybe it's just filling up space, or maybe
                 people will actually read it. Who knows? All i know
                 is that it looks nice.</p>
-            <p>-Thor,God of Thunder</p>
+                <p id="potpis">-Thor,God of Thunder</p>
+            </div>
         </div>
 
         <div class="btm">
             <div class="container-btm">
-                <p>Call to action! It's time!</p>
-                <p>Sign up for our product bz clicking that button right over there!</p>
+                <p id="call">Call to action! It's time!</p>
+                <p>Sign up for our product by clicking that button right over there!</p>
             </div>
             <button type="button">Sign up</button>
         </div>
